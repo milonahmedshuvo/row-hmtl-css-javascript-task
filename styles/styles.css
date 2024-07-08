@@ -1,0 +1,845 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 1280px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Boska */
+@font-face {
+    font-family: 'Boska';
+    src: url('../fonts/Boska_Complete//Fonts/WEB/fonts/Boska-Regular.woff2') format('woff2'),
+         url('../fonts/Boska_Complete//Fonts/WEB/fonts/Boska-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Switzer */
+@font-face {
+    font-family: 'Switzer';
+    src: url('../fonts/Switzer_Complete/Fonts/WEB/fonts/Switzer-Regular.woff2') format('woff2'),
+         url('../fonts/Switzer_Complete/Fonts/WEB/fonts/Switzer-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+   
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Boska', sans-serif;
+}
+
+p {
+    font-family: 'Switzer', sans-serif;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headerColor{
+    background-color: #1B3936;
+    color: white;
+
+    
+}
+.headerMainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 70px 18px 80px;
+
+}
+
+.alignMargin{
+    margin-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* header Image Section  */
+.headerMain{
+    /* position: relative; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.headerImage{
+    background-image: url("/image/first.webp");
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    margin: auto;
+    
+}
+
+
+/* .text {
+    position: relative;
+    height: 100px;
+    border: 1px solid #000;
+  } */
+
+
+
+.cosy  {
+    font-size: 100px;
+}  
+
+.cabin{
+    font-size: 100px;
+    text-align: end;
+    color: #75FF69;
+}
+
+.woods {
+    font-size: 100px;
+}
+
+.jackPeragrap{
+    margin-top: 23px;
+    text-align: center;
+    
+    font-size: 14px;
+}
+
+.headerBorder{
+    border: dashed;
+    border-radius: 100%;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+
+    margin-top: -80px;
+    border-color: #75FF69;
+}
+
+
+
+
+
+
+
+/* welcome section  */
+
+.welcomeContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.welcomeLeftSite {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60px;
+    position: relative;
+    
+    
+
+}
+
+.welcomeRightSite {
+    width: 30%;
+    
+}
+
+
+
+
+/* child element customize  */
+.agg {
+    background-color: #75FF69;
+    width: 100px;
+    height: 140px;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agg h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.welcomePeragrap p {
+    width: 45%; 
+    position: absolute;
+    bottom: 94px;
+    color: #1B3936
+}
+
+
+
+
+
+.welcomeRightSite {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   gap: 30px;
+}
+
+.welcomeRightSite h1 {
+    font-size: 60px;
+    color: #1B3936;
+}
+
+.welcomeRightSite span {
+    font-size: 14px;
+
+}
+
+
+
+/* image section   */
+.img {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: 100%;
+}
+
+
+/* our uniqe image section  */
+.roomTitle {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+.roomTitle h1 {
+    font-size: 50px;
+    color: #1B3936;
+}
+
+
+
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.firstImage { 
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.firstImage h1 {
+    position: absolute;
+    bottom: 160px;
+    left: 50px;
+    color: white;
+    font-weight: 100;
+
+}
+
+.secoundImage {
+    width: 40%;
+    position: relative;
+}
+.secoundImage h1 {
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.secoundImage p {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    color: white;
+    font-weight: 100;
+    width: 80%;
+
+}
+
+.thridImage {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.thridImage h1 {
+    position: absolute;
+    bottom: 160px;
+    left: 50px;
+    color: white;
+    font-weight: 100;
+
+}
+
+
+.img1 {
+    width: 100%;
+}
+.img2 {
+    width: 100%;
+}
+.img3 {
+    width: 100%;
+}
+
+
+
+
+/* sign up section  */
+.signUpContainer{
+    width: 100%;
+    height: 800px;
+    background-color: #1B3936;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgContainer {
+    background-image: url(../image/signup.webp);
+    width: 80%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.textConteiner h1 {
+    font-size: 50px;
+}
+
+.small {
+    color: #75FF69;
+}
+.textConteiner h1, p {
+    color: white;
+    text-align: center;
+}
+
+.child {
+    margin-top: 13px;
+}
+
+
+.inputs {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.inputFiled {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.emailFiled {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: #75FF69;
+    border-style: none;
+}
+
+
+/* experience section here  */
+.experienceMainContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.experienceTitleContainer {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experienceTitle h1 {
+    font-size: 60px;
+    color: #1B3936;
+    font-weight: 200;
+}
+
+.experiencePera {
+   margin-top: 100px;
+}
+
+.experiencePera p {
+    color: #1B3936;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+.experienceImgContainer {
+     display: flex;
+     justify-content: space-between;
+     
+
+}
+.firstMain {
+    width: 100%;
+    position: relative;
+}
+
+.exFirstImg {
+    width: 80%;
+    height: 350px;
+    background-image: url(../image/experience1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    margin-left: 20px;
+}
+.peceful  {
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+.loe {
+    color: black;
+}
+
+
+
+
+
+.secoundMain {
+    width: 100%;
+    position: relative;
+}
+
+.exSecoundImg {
+    width: 80%;
+    height: 350px;
+    background-image: url(../image/experience2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    margin-left: 20px;
+
+}
+
+
+
+.thridMain {
+        width: 100%;
+        position: relative;
+}
+.exthridImg {
+    width: 80%;
+    height: 350px;
+    background-image: url(../image/experience3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    margin-left: 20px;
+}
+
+
+
+
+/* timing section  */
+.timeConteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timetitle h1 {
+    font-size: 60px;
+    color: #1B3936;
+    font-weight: 100;
+}
+
+.timetitle p {
+    color: #1B3936;
+    font-weight: 100;
+    text-align: start;
+    margin-top: 8px;
+}
+
+.talk {
+    width: 100px;
+    height: 50px;
+    border-style: ridge;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.talk p {
+    color: #1B3936;
+}
+
+
+/* footer finishing  */
+.footer {
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.footerMainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutFirstDiv {
+background-color: #75FF69;
+width: 30%;
+padding-top: 100px;
+padding-bottom: 65px;
+}
+.aboutFirstDiv h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #1B3936;
+    font-weight: 500;
+}
+.aboutFirstDiv p {
+    color: #1B3936;
+    font-size: 12px;
+}
+
+.aboutSecoundDiv {
+   background-color: #1B3936;
+   width: 70%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 100px;
+   padding-bottom: 65px;
+}
+
+.rooms h1 {
+   font-size: 40px;
+   color: white;
+   font-weight: 400;
+}
+
+
+.lastElement {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lastElement h5 {
+    color: #1B3936;
+}
+
+
+
+
+
+
+
+
+
+/********************** Dashboard page hare *************** */
+.dashboardContainer{
+    background-color: #101010;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    margin-top: 18px;
+    border-radius: 14px;
+}
+.identityFirstElement {
+    width: 20%;
+}
+
+.Samantha {
+    color: white;
+}
+.Samantha h5 {
+    color: #787878;
+}
+
+
+
+
+.dashboardRoutes {
+    margin-top: 100px;
+}
+
+.dashboardRoutes h4 {
+    color: #787878;
+    margin-top: 18px;
+}
+.expenses {
+    color: white!important ;
+}
+
+
+.expensesSecoundElement {
+    width: 80%;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+
+}
+
+.expensesDatails {
+    width: 60%;
+    padding-right: 40px;
+}
+.expensesNameAndDateMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expensesNameAndDate h1 {
+    color: #262A41;
+}
+.expensesNameAndDate p {
+    color: #787878;
+    text-align: start;
+}
+
+
+
+
+.moneyDatails {
+    width: 40%;
+}
+
+
+
+.todayDatails {
+    margin-top: 20px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.roundedDatials {
+    display: flex;
+    align-items: center;
+    
+}
+.rounded1 {
+    background-color: #32A7E2;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rounded2 {
+    background-color: #B548C6;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rounded3 {
+    background-color: #FF8700;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rounded4 {
+    background-color: #E33B2E;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rounded5 {
+    background-color: #4BA83D;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* .grocery h5 {
+
+} */
+
+.grocery p {
+    color: #404852;
+    font-size: 10px;
+}
+.price p {
+    color: #273240;
+}
+
+.date {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top:15px;
+}
+
+.progress-container {
+    width: 80%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 4px;
+    width: 0;
+    border-radius: 25px;
+    transition: width 0.4s ease;
+}
+
+.blue {
+    background-image: linear-gradient(to right, #31BA96, #31BA96); /* Blue gradient */
+}
+
+.green {
+    background-image: linear-gradient(to right, #31BA96, #31BA96); /* Green gradient */
+}
+
+.red {
+    background-image: linear-gradient(to right, #ff6a00, #ff0000); /* Red gradient */
+}
+
+.yellow {
+    background-image: linear-gradient(to right, #31BA96, #31BA96); /* Yellow gradient */
+}
+
+.purple {
+    background-image: linear-gradient(to right, #c800ff, #7200ff); /* Purple gradient */
+}
+
+
+.progressText {
+    display: flex;
+    justify-content: space-between;
+}
+.progressText p {
+    color: #1B3936;
+    font-size: 14px;
+}

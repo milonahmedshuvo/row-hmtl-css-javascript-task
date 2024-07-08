@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+    <main class="dashboardContainer">
+
+        <div class="identityFirstElement">
+
+            <div class="profile">
+                <div>
+                    <p>img</p>
+                </div>
+
+                <div class="Samantha">
+                    <h2>Samantha</h2>
+                     <h5>Samantha@gmail.com</h5>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="dashboardRoutes">
+                    <h4>Dashboard</h4>
+                    <h4 class="expenses">Expenses</h4>
+                    <h4>Wallets</h4>
+                    <h4>Summary</h4>
+                    <h4>Accounts</h4>
+                    <h4>Settings</h4>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="expensesSecoundElement">
+               <div class="expensesDatails">
+                    <div class="expensesNameAndDateMain">
+                        <div class="expensesNameAndDate">
+                            <h1>expenses</h1>
+                             <p>01 - 25 March, 2020</p>
+                           </div>
+                
+                           <div>
+                            <h1>img</h1>
+                           </div>
+                    </div>
+
+
+                
+                
+                    <!-- prograss bar start here  -->
+
+
+
+                    <!-- today datilas -->
+                     <div class="todayDatails">
+                        <h4>Today</h4>
+                        <div class="item1">
+                            <div class="roundedDatials">
+                                <div class="rounded1">
+                                    <p>h</p>
+                                </div>
+
+                                <div class="grocery">
+                                    <h4>Grocery</h4>
+                                    <p>5:12 pm  •  Belanja di pasar</p>
+                                </div>
+                            </div>
+    
+                            <div class="price">
+                                <p>-326.800</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="item1">
+                            <div class="roundedDatials">
+                                <div class="rounded2">
+                                    <p>T</p>
+                                </div>
+
+                                <div class="grocery">
+                                    <h4>Transportation</h4>
+                                    <p>5:12 pm  •  Naik bus umum</p>
+                                </div>
+                            </div>
+    
+                            <div class="price">
+                                <p>-15.000</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="item1">
+                            <div class="roundedDatials">
+                                <div class="rounded3">
+                                    <p>H</p>
+                                </div>
+
+                                <div class="grocery">
+                                    <h4>Housing</h4>
+                                    <p>5:12 pm  •  Belanja di pasar</p>
+                                </div>
+                            </div>
+    
+                            <div class="price">
+                                <p>-185.750</p>
+                            </div>
+
+                        </div>
+
+
+                        <h3 class="date">Monday, 23 March 2020</h3>
+
+
+                        <div class="item1">
+                            <div class="roundedDatials">
+                                <div class="rounded4">
+                                    <p>F</p>
+                                </div>
+
+                                <div class="grocery">
+                                    <h4>Food and Drink</h4>
+                                    <p>5:12 pm  •  Makan Steak</p>
+                                </div>
+                            </div>
+    
+                            <div class="price">
+                                <p>-156.000</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="item1">
+                            <div class="roundedDatials">
+                                <div class="rounded5">
+                                    <p>E</p>
+                                </div>
+
+                                <div class="grocery">
+                                    <h4>Entertainment</h4>
+                                    <p>5:12 pm  •  Nonton Bioskop</p>
+                                </div>
+                            </div>
+    
+                            <div class="price">
+                                <p>-35.200</p>
+                            </div>
+
+                        </div>
+
+
+
+                     </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+               <div class="moneyDatails">
+                <h3>Where your money go?</h3>
+
+                <div class="bodys">
+                    <div class="progress-container">
+                        <div class="progressText">
+                            <p>Food and Drinks</p>
+                            <p>872.400</p>
+                         </div>
+                        <div class="progress-bar blue" id="progress-bar1"></div>
+                    </div>
+
+                    <div class="progress-container">
+                         <div class="progressText">
+                            <p>Shopping</p>
+                            <p>1.378.200</p>
+                         </div>
+                        <div class="progress-bar green" id="progress-bar2"></div>
+                    </div>
+
+
+                    <div class="progress-container">
+                        <div class="progressText">
+                            <p>Housing</p>
+                            <p>928.500</p>
+                         </div>
+                        <div class="progress-bar red" id="progress-bar3"></div>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progressText">
+                            <p>Transportation</p>
+                            <p>420.700</p>
+                         </div>
+                        <div class="progress-bar yellow" id="progress-bar4"></div>
+                    </div>
+
+
+                    <div class="progress-container">
+                        <div class="progressText">
+                            <p>Vehicle</p>
+                            <p>520.000</p>
+                         </div>
+                        <div class="progress-bar purple" id="progress-bar5"></div>
+                    </div>
+                
+                    <script>
+                        // Example to update progress bars
+                        function updateProgressBar(id, percentage) {
+                            const progressBar = document.getElementById(id);
+                            progressBar.style.width = percentage + '%';
+                        }
+                
+                        // Example: Update progress bars
+                        updateProgressBar('progress-bar1', 70);
+                        updateProgressBar('progress-bar2', 50);
+                        updateProgressBar('progress-bar3', 80);
+                        updateProgressBar('progress-bar4', 40);
+                        updateProgressBar('progress-bar5', 90);
+                    </script>
+                </div>
+               </div>
+        </div>
+       
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
